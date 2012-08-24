@@ -45,7 +45,7 @@
   <options>
     <option showHiddenPaths="False" />
     <option testMovie="Custom" />
-    <option testMovieCommand="run.cmd" />
+    <option testMovieCommand=".\bin\run.cmd" />
   </options>
   <!-- Plugin storage -->
   <storage />
