@@ -1,0 +1,5 @@
+@echo off
+chcp 1251>Nul
+del /s "bin\as3\*.*" /q >NuL
+neko bin\fdgcl.n $(ProjectID).hxproj "-as3 bin/as3 -swf-version 11.3 -D fdb"
+start bin\$(ProjectID).fla
