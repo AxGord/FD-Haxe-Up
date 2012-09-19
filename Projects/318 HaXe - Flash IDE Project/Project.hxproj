@@ -42,14 +42,14 @@
     <!-- example: <hidden path="..." /> -->
   </hiddenPaths>
   <!-- Executed before build -->
-  <preBuildCommand>.\bin\build.cmd</preBuildCommand>
+  <preBuildCommand>.\tools\build.cmd</preBuildCommand>
   <!-- Executed after build -->
   <postBuildCommand alwaysRun="False" />
   <!-- Other project options -->
   <options>
     <option showHiddenPaths="False" />
     <option testMovie="Custom" />
-    <option testMovieCommand=".\bin\publishFla.jsfl" />
+    <option testMovieCommand="" />
   </options>
   <!-- Plugin storage -->
   <storage />
