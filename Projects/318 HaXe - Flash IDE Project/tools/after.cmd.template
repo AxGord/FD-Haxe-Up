@@ -1,3 +1,3 @@
 neko tools\HaXeASFix.n bin\as3
-start bin\$(ProjectID).fla
+bin\$(ProjectID).fla
 start tools\publishFla.jsfl
