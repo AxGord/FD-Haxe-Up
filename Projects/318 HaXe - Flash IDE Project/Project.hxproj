@@ -19,7 +19,7 @@
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="" />
+    <option directives="fdb" />
     <option flashStrict="True" />
     <option mainClass="$(PackageDot)Main" />
     <option enabledebug="False" />
