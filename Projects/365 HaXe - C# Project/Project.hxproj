@@ -19,7 +19,7 @@
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="" />
+    <option directives="unsafe&#xA;no-compilation" />
     <option flashStrict="False" />
     <option mainClass="$(PackageDot)Main" />
     <option enabledebug="False" />
@@ -49,7 +49,7 @@
   <options>
     <option showHiddenPaths="False" />
     <option testMovie="Custom" />
-    <option testMovieCommand="tools\run.cmd" />
+    <option testMovieCommand="tools\test.cmd" />
   </options>
   <!-- Plugin storage -->
   <storage />
