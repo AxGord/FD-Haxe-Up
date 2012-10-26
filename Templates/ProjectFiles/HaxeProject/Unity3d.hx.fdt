@@ -1,0 +1,20 @@
+package $(Package);
+
+import unityEngine.MonoBehaviour;
+
+/**
+$(CBI)* ...
+$(CBI)* @author $(DefaultUser)
+$(CBI)*/
+
+class $(FileName) extends MonoBehaviour $(CSLB){
+
+	public function Start():Void $(CSLB){
+		$(EntryPoint)
+	}
+	
+	public function Update():Void $(CSLB){
+		
+	}
+	
+}
