@@ -1,5 +1,6 @@
 FlashDevelop-HaXe-Projects-Templates
 ====================================
-Just move folder "Projects" in "C:\Program Files (x86)\FlashDevelop" or "C:\Program Files\FlashDevelop" if you use 32-bit system.
+FlashDevelop > Tools > Aplication Files...
+Move the contents of this project, into the window that appears.
 
-Adds "HaXe - Flash IDE Project" and "HaXe - NodeJS Project" in New Project menu.
+Adds "HaXe - Flash IDE Project", "HaXe - NodeJS Project", "365 HaXe - C# Project" and "366 HaXe - Unity3D Project" in New Project menu.
