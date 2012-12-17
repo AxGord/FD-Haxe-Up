@@ -1,6 +1,7 @@
 package $(Package);
 
 import unityEngine.MonoBehaviour;
+using UnityHelper;
 
 /**
 $(CBI)* ...
@@ -9,11 +10,11 @@ $(CBI)*/
 
 class $(FileName) extends MonoBehaviour $(CSLB){
 
-	public function Start():Void $(CSLB){
+	private function Start():Void $(CSLB){
 		$(EntryPoint)
 	}
 	
-	public function Update():Void $(CSLB){
+	private function Update():Void $(CSLB){
 		
 	}
 	
