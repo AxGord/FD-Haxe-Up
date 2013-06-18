@@ -8,7 +8,7 @@ $(CBI)* ...
 $(CBI)* @author $(DefaultUser)
 $(CBI)*/
 
-class $(FileName) extends MonoBehaviour $(CSLB){
+class $(FileName) extends MonoBehaviour $(CSLB) {
 
 	private function Start():Void $(CSLB){
 		$(EntryPoint)

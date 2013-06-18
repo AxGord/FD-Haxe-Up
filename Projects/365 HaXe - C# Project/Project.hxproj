@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project version="2">
   <!-- Output SWF options -->
-  <output>
-    <movie outputType="CustomBuild" />
-    <movie input="" />
-    <movie path="bin\$(ProjectID).swf" />
-    <movie fps="30" />
-    <movie width="800" />
-    <movie height="600" />
-    <movie version="10" />
-    <movie minorVersion="0" />
-    <movie platform="Flash Player" />
-    <movie background="#FFFFFF" />
-  </output>
+    <output>
+        <movie outputType="Application" />
+        <movie input="" />
+        <movie path="$(ProjectID)" />
+        <movie fps="0" />
+        <movie width="0" />
+        <movie height="0" />
+        <movie version="1" />
+        <movie minorVersion="0" />
+        <movie platform="C#" />
+        <movie background="#FFFFFF" />
+    </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="src" />
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="unsafe&#xA;no-compilation" />
+    <option directives="" />
     <option flashStrict="False" />
     <option mainClass="$(PackageDot)Main" />
     <option enabledebug="False" />
@@ -42,14 +42,14 @@
     <!-- example: <hidden path="..." /> -->
   </hiddenPaths>
   <!-- Executed before build -->
-  <preBuildCommand>.\tools\build.cmd</preBuildCommand>
+  <preBuildCommand></preBuildCommand>
   <!-- Executed after build -->
   <postBuildCommand alwaysRun="False" />
   <!-- Other project options -->
   <options>
     <option showHiddenPaths="False" />
     <option testMovie="Custom" />
-    <option testMovieCommand="tools\test.cmd" />
+    <option testMovieCommand="run.cmd" />
   </options>
   <!-- Plugin storage -->
   <storage />

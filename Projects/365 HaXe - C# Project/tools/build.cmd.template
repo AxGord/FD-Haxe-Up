@@ -1,4 +1,0 @@
-@echo off
-chcp 1251>Nul
-del /s "bin\src\*.*" /q >NuL
-neko tools\fdgcl.n $(ProjectID).hxproj "-cs bin -cmd tools\run.cmd"
