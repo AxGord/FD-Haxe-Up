@@ -1,3 +1,0 @@
-neko tools\HaXeASFix.n bin\as3
-bin\$(ProjectID).fla
-start tools\publishFla.jsfl

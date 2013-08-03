@@ -1,0 +1,9 @@
+package $(Package);
+
+/**
+$(CBI)* $(FileName)
+$(CBI)* @see $(FileName)UCore
+$(CBI)* @author $(DefaultUser)
+$(CBI)*/
+
+class $(FileName) extends $(FileName)UCore {}

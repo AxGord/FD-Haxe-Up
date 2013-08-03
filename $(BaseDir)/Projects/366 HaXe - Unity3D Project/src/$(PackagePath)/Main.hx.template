@@ -1,0 +1,22 @@
+package $(PackageName);
+
+import unityengine.MonoBehaviour;
+using hugs.HUGSWrapper;
+
+/**
+$(CBI)* Main
+$(CBI)* @author $(DefaultUser)
+$(CBI)*/
+
+class Main extends MonoBehaviour $(CSLB){
+	
+	private function Start():Void $(CSLB){
+		
+	}
+	
+	private function Update():Void $(CSLB){
+		
+	}
+	
+	private static function main(){}
+}
