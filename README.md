@@ -1,4 +1,4 @@
-FlashDevelop-HaXe-Projects-Templates
+FlashDevelop-Haxe-Projects-Templates
 ====================================
 FlashDevelop > Tools > Aplication Files...
 Move the contents of this project, into the window that appears.
