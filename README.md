@@ -5,4 +5,4 @@ Move the contents of this project, into the window that appears.
 
 Adds "Haxe - Flash IDE Project", "Haxe - NodeJS Project", "Haxe - C# Project" and "Haxe - Unity3D Project" in New Project menu.
 
-Apply this and other features: <a href="https://docs.google.com/file/d/0ByuLRUJ5vNcWRDhNNTFvMHdYbDQ">FlashDevelop upgrade</a>
+Apply this and other features: <a href="https://github.com/AxGord/FlashDevelop-Haxe-Projects-Templates/releases/download/0.5/upgrade.fdz">FlashDevelop upgrade</a>
