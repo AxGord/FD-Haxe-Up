@@ -6,4 +6,4 @@ Adds killer and munit gen in toolbar
 
 Adds duplicate plugin and layout
 
-Apply this and other features: <a href="https://github.com/AxGord/FlashDevelop-Haxe-Projects-Templates/releases/download/0.6/upgrade.fdz">FlashDevelop upgrade</a>
+Apply this and other features: <a href="https://github.com/AxGord/FD-Haxe-Up/releases/download/0.6/fd-haxe-up.fdz">Download</a>
