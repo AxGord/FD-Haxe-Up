@@ -14,5 +14,7 @@
 	<button label="Label.CommandPrompt" click="PluginCommand" tag="FileExplorer.PromptHere;$(WorkingDir)" image="57" />
 	<button label="Label.WindowsExplorer" click="PluginCommand" tag="FileExplorer.Explore;$(WorkingDir)" image="46" />
 	<button label="Label.CodeSnippets" click="EditSnippets" image="341|5|2|2" />
-	<button label="Kill FlashPlayer" click="RunProcess" tag="taskkill;/f /t /im FlashPlayerDebugger.exe" image="197" />
+	<separator />
+	<button label="Kill FlashPlayer, neko, haxe, nekotools" click="RunProcess" tag="$(BaseDir)\Tools\killer.cmd" image="111" />
+	<button label="Gen munit" click="RunProcess" tag="neko;$(BaseDir)\Tools\genmunit.n $(ProjectDir) $(TypPkgName)" image="33" />
 </toolbar>
