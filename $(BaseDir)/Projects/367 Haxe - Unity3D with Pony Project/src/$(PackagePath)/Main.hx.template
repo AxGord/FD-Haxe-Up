@@ -1,6 +1,6 @@
 package $(PackageName);
 
-import unityengine.MonoBehaviour;
+import pony.unity3d.Helper;
 using hugs.HUGSWrapper;
 
 /**
@@ -8,13 +8,10 @@ $(CBI)* Main
 $(CBI)* @author $(DefaultUser)
 $(CBI)*/
 
-class Main extends MonoBehaviour $(CSLB){
+class Main extends Helper $(CSLB){
 	
 	private function Start():Void $(CSLB){
 		
 	}
 	
-	private function Update():Void $(CSLB){
-		
-	}
 }

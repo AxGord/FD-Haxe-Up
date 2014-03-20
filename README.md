@@ -1,9 +1,29 @@
 FD-Haxe-Up
 ====================================
-Adds "Haxe - Flash IDE Project"(swc, as3), "Haxe - NodeJS Project", "Haxe - C# Project" and "Haxe - Unity3D Project" in New Project menu.
+FlashDevelop Haxe Upgrade Pack v0.7
 
-Adds killer and munit gen in toolbar
+Features
+------------------------------------------------------------
+- Killer (kill FlashPlayer, neko, haxe, nekotools processes one button click)
+- Generate munit test button
+- Open unity project button
+- Require <a href="http://www.flashdevelop.org/community/viewtopic.php?t=2993">duplicate</a> plugin
+- BigSingleScreen layout
+- Seven Haxe project templates
+- Fix locations in Command Prompt and Windows Explorer buttons
+- Add New Abstract Class
+- Add New Unity3d Class
 
-Adds duplicate plugin and layout
+Templates
+------------------------------------------------------------
+- Haxe - Flash IDE Project(AS3)
+- Haxe - Flash IDE Project(SWC)
+- Haxe - Flash IDE with Pony Project(SWC)
+- Haxe - NodeJS Project
+- Haxe - C# Project
+- Haxe - Unity3D Project
+- Haxe - Unity3D with Pony Project
 
-Apply this and other features: <a href="https://github.com/AxGord/FD-Haxe-Up/releases/download/0.6/fd-haxe-up.fdz">Download</a>
+Installation
+------------------------------------------------------------
+Download and run this file: <a href="https://github.com/AxGord/FD-Haxe-Up/releases/download/0.7/fd-haxe-up.fdz">fd-haxe-up.fdz</a>

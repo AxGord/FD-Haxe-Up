@@ -1,4 +1,4 @@
 @echo off
 cd $(ProjectID)/bin
-$(ProjectID).exe
+Main.exe
 pause

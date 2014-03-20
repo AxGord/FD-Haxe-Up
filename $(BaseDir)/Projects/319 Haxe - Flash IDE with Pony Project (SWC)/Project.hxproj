@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project version="2">
   <!-- Output SWF options -->
-    <output>
-        <movie outputType="Application" />
-        <movie input="" />
-        <movie path="tmp" />
-        <movie fps="0" />
-        <movie width="0" />
-        <movie height="0" />
-        <movie version="1" />
-        <movie minorVersion="0" />
-        <movie platform="C#" />
-        <movie background="#FFFFFF" />
-    </output>
+  <output>
+    <movie outputType="Application" />
+    <movie input="" />
+    <movie path="bin\main.swc" />
+    <movie fps="60" />
+    <movie width="800" />
+    <movie height="600" />
+    <movie version="11" />
+    <movie minorVersion="7" />
+    <movie platform="Flash Player" />
+    <movie background="#FFFFFF" />
+  </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="src" />
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="no-compilation" />
-    <option flashStrict="False" />
-    <option mainClass="" />
+    <option directives="fdb" />
+    <option flashStrict="True" />
+    <option mainClass="$(PackageDot)Main" />
     <option enabledebug="False" />
-    <option additional="-net-lib C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll&#xA;Main" />
+    <option additional="--macro include('pony.flash.ui')&#xA;--macro pony.macro.Cmd.fd('$(ProjectID).hxproj')" />
   </build>
   <!-- haxelib libraries -->
   <haxelib>
-    <library name="HUGS" />
+    <library name="pony" />
   </haxelib>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>
@@ -44,7 +44,7 @@
   <!-- Executed before build -->
   <preBuildCommand></preBuildCommand>
   <!-- Executed after build -->
-  <postBuildCommand alwaysRun="False">neko update.n tmp/src bin/Assets/src</postBuildCommand>
+  <postBuildCommand alwaysRun="False">.\tools\publish.cmd</postBuildCommand>
   <!-- Other project options -->
   <options>
     <option showHiddenPaths="False" />

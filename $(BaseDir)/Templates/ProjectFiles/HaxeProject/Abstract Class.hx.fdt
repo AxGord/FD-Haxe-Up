@@ -1,0 +1,11 @@
+package $(Package);
+
+/**
+$(CBI)* $(FileName)
+$(CBI)* @author $(DefaultUser)
+$(CBI)*/
+abstract $(FileName)() $(CSLB){
+
+	inline public function new(v) this = v;
+	$(EntryPoint)
+}
