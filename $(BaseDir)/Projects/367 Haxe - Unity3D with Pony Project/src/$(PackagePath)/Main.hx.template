@@ -7,10 +7,9 @@ using hugs.HUGSWrapper;
 $(CBI)* Main
 $(CBI)* @author $(DefaultUser)
 $(CBI)*/
-
-class Main extends Helper $(CSLB){
+@:nativeGen class Main extends Helper $(CSLB){
 	
-	private function Start():Void $(CSLB){
+	override private function Start():Void $(CSLB){
 		
 	}
 	

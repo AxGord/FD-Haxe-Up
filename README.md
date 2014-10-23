@@ -9,7 +9,7 @@ Features
 - Open unity project button
 - Require [duplicate](http://www.flashdevelop.org/community/viewtopic.php?t=2993) plugin
 - BigSingleScreen layout
-- Seven Haxe project templates
+- Eight Haxe project templates
 - Fix locations in Command Prompt and Windows Explorer buttons
 - Add New Abstract Class
 - Add New Unity3d Class
@@ -23,6 +23,7 @@ Templates
 - Haxe - C# Project
 - Haxe - Unity3D Project
 - Haxe - Unity3D with Pony Project
+- Haxe - HUGS Project
 
 Screenshot
 -----------------------

@@ -4,9 +4,11 @@
 *.pidb
 *.unityproj
 *.DS_Store
+*.meta
 /bin/Library/FailedAssetImports.txt
 /bin/Library/cache/
 /bin/Library/previews/
+/bin/Library/metadata/
 /bin/Library/ScriptAssemblies
 /bin/obj
 /bin/Temp
