@@ -31,4 +31,4 @@ Screenshot
 
 Installation
 ------------------------------------------------------------
-Download and run this file: [fd-haxe-up.fdz](https://github.com/AxGord/FD-Haxe-Up/releases/download/0.7/fd-haxe-up.fdz)
+Download and run this file: [fd-haxe-up.fdz](https://github.com/AxGord/FD-Haxe-Up/releases/download/0.8/fd-haxe-up.fdz)
