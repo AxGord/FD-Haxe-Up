@@ -1,6 +1,6 @@
 FD-Haxe-Up
 ====================================
-FlashDevelop Haxe Upgrade Pack v0.7
+FlashDevelop Haxe Upgrade Pack v0.9
 
 Features
 ------------------------------------------------------------
@@ -9,7 +9,7 @@ Features
 - Open unity project button
 - Require [duplicate](http://www.flashdevelop.org/community/viewtopic.php?t=2993) plugin
 - BigSingleScreen layout
-- Eight Haxe project templates
+- Nine Haxe project templates
 - Fix locations in Command Prompt and Windows Explorer buttons
 - Add New Abstract Class
 - Add New Unity3d Class
@@ -19,6 +19,7 @@ Templates
 - Haxe - Flash IDE Project(AS3)
 - Haxe - Flash IDE Project(SWC)
 - Haxe - Flash IDE with Pony Project(SWC)
+- Haxe - Flash IDE with Pony+Starling Project(SWC)
 - Haxe - NodeJS Project
 - Haxe - C# Project
 - Haxe - Unity3D Project
@@ -31,4 +32,4 @@ Screenshot
 
 Installation
 ------------------------------------------------------------
-Download and run this file: [fd-haxe-up.fdz](https://github.com/AxGord/FD-Haxe-Up/releases/download/0.8/fd-haxe-up.fdz)
+Download and run this file: [fd-haxe-up.fdz](https://github.com/AxGord/FD-Haxe-Up/releases/download/0.9/fd-haxe-up.fdz)

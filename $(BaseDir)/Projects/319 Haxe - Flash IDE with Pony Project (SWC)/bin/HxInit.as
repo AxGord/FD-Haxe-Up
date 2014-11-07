@@ -4,9 +4,9 @@ package {
 	public class HxInit extends MovieClip {
 		
 		public function HxInit() {
+			stop();
 			Main; haxe.initSwc(this);
 			super();
-			stop();
 		}
 		
 	}

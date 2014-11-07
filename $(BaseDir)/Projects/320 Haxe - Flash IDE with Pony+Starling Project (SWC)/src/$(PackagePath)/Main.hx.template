@@ -1,0 +1,25 @@
+package $(PackageName);
+
+import pony.starling.displayFactory.DisplayFactory.IDisplayObject;
+import pony.starling.displayFactory.DisplayFactory.IDisplayObjectContainer;
+import pony.starling.initializer.Initializer;
+import pony.starling.utils.StarlingStaticExtentions;
+
+/**
+$(CBI)* Main
+$(CBI)* @author $(DefaultUser)
+$(CBI)*/
+
+class Main $(CSLB){
+	
+	
+	static function main() $(CSLB){
+		Initializer.init(init);
+	}
+	
+	static function init(container:IDisplayObjectContainer, root:IDisplayObject):Void {
+		
+	}
+	
+	
+}
