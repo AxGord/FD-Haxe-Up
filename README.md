@@ -1,6 +1,6 @@
 FD-Haxe-Up
 ====================================
-FlashDevelop Haxe Upgrade Pack v1.0
+FlashDevelop Haxe Upgrade Pack v1.1
 
 Features
 ------------------------------------------------------------
@@ -33,4 +33,4 @@ Screenshot
 
 Installation
 ------------------------------------------------------------
-Download and run this file: [fd-haxe-up.fdz](https://github.com/AxGord/FD-Haxe-Up/releases/download/1.0/fd-haxe-up.fdz)
+Download and run this file: [fd-haxe-up.fdz](https://github.com/AxGord/FD-Haxe-Up/releases/download/1.1/fd-haxe-up.fdz)

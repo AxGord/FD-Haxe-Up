@@ -1,12 +1,6 @@
 {
     "checks": [
         {
-            "type": "Anonymous",
-            "props": {
-                "severity": "ERROR"
-            }
-        },
-        {
             "type": "ArrayInstantiation",
             "props": {
                 "severity": "ERROR"
@@ -42,12 +36,6 @@
                         "complexity": 30
                     }
                 ]
-            }
-        },
-        {
-            "type": "Dynamic",
-            "props": {
-                "severity": "INFO"
             }
         },
         {
@@ -97,7 +85,7 @@
             "type": "MemberName",
             "props": {
                 "severity": "ERROR",
-                "format": "^[a-z]+[a-zA-Z0-9]*$",
+                "format": "^[a-z_]+[a-zA-Z0-9]*$",
                 "tokens": [
                     "PUBLIC",
                     "PRIVATE",
@@ -116,7 +104,7 @@
             "type": "MethodName",
             "props": {
                 "severity": "ERROR",
-                "format": "^[a-z]+[a-zA-Z0-9]*$",
+                "format": "^[a-z_]+[a-zA-Z0-9]*$",
                 "tokens": []
             }
         },
@@ -151,7 +139,7 @@
             "type": "ParameterName",
             "props": {
                 "severity": "ERROR",
-                "format": "^[a-z]+[a-zA-Z0-9]*$"
+                "format": "^[a-z_]+[a-zA-Z0-9]*$"
             }
         },
         {
@@ -170,12 +158,6 @@
                 "spaceAroundBinop": true,
                 "spaceAroundBinop": true,
                 "ignoreRangeOperator": true
-            }
-        },
-        {
-            "type": "TabForAligning",
-            "props": {
-                "severity": "INFO"
             }
         },
         {
