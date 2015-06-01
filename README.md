@@ -1,6 +1,6 @@
 FD-Haxe-Up
 ====================================
-FlashDevelop Haxe Upgrade Pack v0.9
+FlashDevelop Haxe Upgrade Pack v1.0
 
 Features
 ------------------------------------------------------------
@@ -13,6 +13,7 @@ Features
 - Fix locations in Command Prompt and Windows Explorer buttons
 - Add New Abstract Class
 - Add New Unity3d Class
+- Add [Checkstyle](https://github.com/adireddy/haxe-checkstyle) button
 
 Templates
 ------------------------------------------------------------
@@ -32,4 +33,4 @@ Screenshot
 
 Installation
 ------------------------------------------------------------
-Download and run this file: [fd-haxe-up.fdz](https://github.com/AxGord/FD-Haxe-Up/releases/download/0.9/fd-haxe-up.fdz)
+Download and run this file: [fd-haxe-up.fdz](https://github.com/AxGord/FD-Haxe-Up/releases/download/1.0/fd-haxe-up.fdz)

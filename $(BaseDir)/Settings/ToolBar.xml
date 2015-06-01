@@ -18,4 +18,5 @@
 	<button label="Kill FlashPlayer, neko, haxe, nekotools" click="RunProcess" tag="$(BaseDir)\Tools\killer.cmd" image="111" />
 	<button label="Gen munit" click="RunProcess" tag="neko;$(BaseDir)\Tools\genmunit.n $(ProjectDir) $(TypPkgName)" image="33" />
 	<button label="Open in Unity" click="RunProcess" tag="$(ProjectDir)\bin\Assets\main.unity" image="201" />
+	<button label="Check style" click="RunProcessCaptured" tag="C:\HaxeToolkit\haxe\haxelib.exe;run checkstyle -s $(CurFile) -c $(BaseDir)\Tools\config.json" image="461" />
 </toolbar>

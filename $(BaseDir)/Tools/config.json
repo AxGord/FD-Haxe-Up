@@ -1,0 +1,206 @@
+{
+    "checks": [
+        {
+            "type": "Anonymous",
+            "props": {
+                "severity": "ERROR"
+            }
+        },
+        {
+            "type": "ArrayInstantiation",
+            "props": {
+                "severity": "ERROR"
+            }
+        },
+        {
+            "type": "BlockFormat",
+            "props": {
+                "severity": "ERROR",
+                "emptyBlockCheck": false
+            }
+        },
+        {
+            "type": "ConstantName",
+            "props": {
+                "severity": "ERROR",
+                "format": "^[A-Z][A-Z0-9]*(_[A-Z0-9_]+)*$",
+                "tokens": [
+                    "INLINE"
+                ]
+            }
+        },
+        {
+            "type": "CyclomaticComplexity",
+            "props": {
+                "thresholds": [
+                    {
+                        "severity": "WARNING",
+                        "complexity": 20
+                    },
+                    {
+                        "severity": "ERROR",
+                        "complexity": 30
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Dynamic",
+            "props": {
+                "severity": "INFO"
+            }
+        },
+        {
+            "type": "EmptyLines",
+            "props": {
+                "severity": "INFO",
+                "maxConsecutiveEmptyLines": 1
+            }
+        },
+        {
+            "type": "ERegInstantiation",
+            "props": {
+                "severity": "ERROR"
+            }
+        },
+        {
+            "type": "FileLength",
+            "props": {
+                "severity": "WARNING",
+                "max": 2000
+            }
+        },
+        {
+            "type": "HexadecimalLiterals",
+            "props": {
+                "severity": "INFO"
+            }
+        },
+        {
+            "type": "LineLength",
+            "props": {
+                "severity": "ERROR",
+                "maxCharacters": 200
+            }
+        },
+        {
+            "type": "MemberName",
+            "props": {
+                "severity": "ERROR",
+                "format": "^[A-Z]+[A-Z0-9_]*$",
+                "tokens": [
+                    "ENUM"
+                ]
+            }
+        },
+        {
+            "type": "MemberName",
+            "props": {
+                "severity": "ERROR",
+                "format": "^[a-z]+[a-zA-Z0-9]*$",
+                "tokens": [
+                    "PUBLIC",
+                    "PRIVATE",
+                    "TYPEDEF"
+                ]
+            }
+        },
+        {
+            "type": "MethodLength",
+            "props": {
+                "severity": "ERROR",
+                "maxFunctionLines": 50
+            }
+        },
+        {
+            "type": "MethodName",
+            "props": {
+                "severity": "ERROR",
+                "format": "^[a-z]+[a-zA-Z0-9]*$",
+                "tokens": []
+            }
+        },
+        {
+            "type": "NestedForDepth",
+            "props": {
+                "severity": "ERROR",
+                "max": 1
+            }
+        },
+        {
+            "type": "NestedIfDepth",
+            "props": {
+                "severity": "ERROR",
+                "max": 1
+            }
+        },
+        {
+            "type": "NestedTryDepth",
+            "props": {
+                "severity": "ERROR",
+                "max": 1
+            }
+        },
+        {
+            "type": "Override",
+            "props": {
+                "severity": "ERROR"
+            }
+        },
+        {
+            "type": "ParameterName",
+            "props": {
+                "severity": "ERROR",
+                "format": "^[a-z]+[a-zA-Z0-9]*$"
+            }
+        },
+        {
+            "type": "ParameterNumber",
+            "props": {
+                "severity": "INFO",
+                "max": 7,
+                "ignoreOverriddenMethods": false
+            }
+        },
+        {
+            "type": "Spacing",
+            "props": {
+                "severity": "INFO",
+                "spaceIfCondition": true,
+                "spaceAroundBinop": true,
+                "spaceAroundBinop": true,
+                "ignoreRangeOperator": true
+            }
+        },
+        {
+            "type": "TabForAligning",
+            "props": {
+                "severity": "INFO"
+            }
+        },
+        {
+            "type": "TODOComment",
+            "props": {
+                "severity": "INFO"
+            }
+        },
+        {
+            "type": "Type",
+            "props": {
+                "severity": "ERROR"
+            }
+        },
+        {
+            "type": "TypeName",
+            "props": {
+                "severity": "ERROR",
+                "format": "^[A-Z]+[a-zA-Z0-9]*$",
+                "tokens": [
+                    "CLASS",
+                    "ENUM",
+                    "TYPEDEF"
+                ]
+            }
+        }
+    ]
+}
