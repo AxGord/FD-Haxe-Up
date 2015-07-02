@@ -9,7 +9,7 @@
     <movie width="800" />
     <movie height="600" />
     <movie version="11" />
-    <movie minorVersion="7" />
+    <movie minorVersion="8" />
     <movie platform="Flash Player" />
     <movie background="#FFFFFF" />
   </output>
@@ -44,12 +44,12 @@
   <!-- Executed before build -->
   <preBuildCommand></preBuildCommand>
   <!-- Executed after build -->
-  <postBuildCommand alwaysRun="False">.\tools\publish.cmd</postBuildCommand>
+  <postBuildCommand alwaysRun="False"></postBuildCommand>
   <!-- Other project options -->
   <options>
     <option showHiddenPaths="False" />
     <option testMovie="Custom" />
-    <option testMovieCommand="" />
+    <option testMovieCommand=".\build.cmd" />
   </options>
   <!-- Plugin storage -->
   <storage />

@@ -1,1 +1,0 @@
-start tools\publishFla.jsfl

@@ -38,6 +38,19 @@
                 ]
             }
         },
+		{
+            "type": "Dynamic",
+            "props": {
+                "severity": "INFO"
+            }
+        },
+        {
+            "type": "EmptyBlock",
+            "props": {
+                "severity": "ERROR",
+                "option": "empty"
+            }
+        },
         {
             "type": "EmptyLines",
             "props": {
@@ -64,6 +77,28 @@
                 "severity": "INFO"
             }
         },
+		{
+            "type": "LeftCurly",
+            "props": {
+                "severity": "WARNING",
+                "option": "eol",
+                "tokens": [
+                    "CLASS_DEF",
+                    "ENUM_DEF",
+                    "ABSTRACT_DEF",
+                    "TYPEDEF_DEF",
+                    "CLASS_DEF",
+                    "INTERFACE_DEF",
+                    "FUNCTION",
+                    "FOR",
+                    "IF",
+                    "WHILE",
+                    "SWITCH",
+                    "TRY",
+                    "CATCH"
+                ]
+            }
+        },
         {
             "type": "LineLength",
             "props": {
@@ -75,7 +110,7 @@
             "type": "MemberName",
             "props": {
                 "severity": "ERROR",
-                "format": "^[A-Z]+[A-Z0-9_]*$",
+                "format": "^[A-Z]+[a-zA-Z0-9]*$",
                 "tokens": [
                     "ENUM"
                 ]

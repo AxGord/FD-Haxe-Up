@@ -1,0 +1,26 @@
+package $(Package);
+
+import pony.db.DBV;
+import pony.Errors;
+import pony.net.http.modules.mmodels.fields.*;
+import pony.net.http.modules.mmodels.Model;
+import pony.net.http.modules.mmodels.ModelConnect;
+
+/**
+$(CBI)* $(FileName) model
+$(CBI)* @author $(DefaultUser)
+$(CBI)*/
+class $(FileName) extends Model $(CSLB){
+	static var fields = {
+		$(EntryPoint)
+	};
+}
+
+/**
+$(CBI)* $(FileName) model connect
+$(CBI)* @author $(DefaultUser)
+$(CBI)*/
+@:build(com.dongxiguo.continuation.Continuation.cpsByMeta(":async"))
+class $(FileName)Connect extends ModelConnect $(CSLB){
+	
+}

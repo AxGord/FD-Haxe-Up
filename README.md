@@ -1,19 +1,20 @@
 FD-Haxe-Up
 ====================================
-FlashDevelop Haxe Upgrade Pack v1.1
+FlashDevelop Haxe Upgrade Pack v1.2
 
 Features
 ------------------------------------------------------------
 - Killer (kill FlashPlayer, neko, haxe, nekotools processes one button click)
 - Generate munit test button
 - Open unity project button
+- [Checkstyle](https://github.com/adireddy/haxe-checkstyle) button
 - Require [duplicate](http://www.flashdevelop.org/community/viewtopic.php?t=2993) plugin
 - BigSingleScreen layout
 - Nine Haxe project templates
 - Fix locations in Command Prompt and Windows Explorer buttons
 - Add New Abstract Class
 - Add New Unity3d Class
-- Add [Checkstyle](https://github.com/adireddy/haxe-checkstyle) button
+- Add Pony Model Class
 
 Templates
 ------------------------------------------------------------
@@ -33,4 +34,4 @@ Screenshot
 
 Installation
 ------------------------------------------------------------
-Download and run this file: [fd-haxe-up.fdz](https://github.com/AxGord/FD-Haxe-Up/releases/download/1.1/fd-haxe-up.fdz)
+Download and run this file: [fd-haxe-up.fdz](https://github.com/AxGord/FD-Haxe-Up/releases/download/1.2/fd-haxe-up.fdz)
