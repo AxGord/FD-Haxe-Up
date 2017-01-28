@@ -1,4 +1,4 @@
-set NODE_PATH=%USERPROFILE%\node_modules
+set NODE_PATH=%appdata%\npm\node_modules
 cd bin
 node $(ProjectID).js
 pause
