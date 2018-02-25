@@ -1,16 +1,19 @@
 package $(PackageName);
 
-import pony.unity3d.Helper;
+import unityengine.MonoBehaviour;
 using hugs.HUGSWrapper;
 
 /**
 $(CBI)* Main
 $(CBI)* @author $(DefaultUser)
 $(CBI)*/
-@:nativeGen class Main extends Helper $(CSLB){
+@:nativeGen class Main extends MonoBehaviour $(CSLB){
 	
-	override private function Start():Void $(CSLB){
+	private function Start():Void $(CSLB){
 		
 	}
 	
+	private function Update():Void $(CSLB){
+		
+	}
 }

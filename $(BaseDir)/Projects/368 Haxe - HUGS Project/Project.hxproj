@@ -23,7 +23,7 @@
     <option flashStrict="False" />
     <option mainClass="" />
     <option enabledebug="False" />
-    <option additional="Main" />
+    <option additional="-net-lib C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll&#xA;Main" />
   </build>
   <!-- haxelib libraries -->
   <haxelib>
